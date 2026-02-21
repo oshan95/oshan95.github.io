@@ -1,19 +1,3 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
   <title>
-    Mohammad | A AI Developer, Researcher based in Auckland, New Zealand.
+    Oshan Mendis | Software Engineer based in Auckland, New Zealand.
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="description" content="Oshan Mendis is a Software Engineer based in Auckland, New Zealand specializing in backend development, microservices architecture and enterprise systems." />
+
+  <meta name="keywords"
+    content="Oshan Mendis, Software Engineer, Backend Developer, Spring Boot, Java, Microservices, Auckland, New Zealand, ServiceNow, REST API, Kubernetes" />
+
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -41,25 +26,22 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
+
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Mohammad</span>
+          <span>Oshan Mendis</span>
         </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A AI Developer, Researcher based in Auckland, New Zealand.</p>
+        <p>
+          Software Engineer based in Auckland, New Zealand. <br>
+          Backend & Microservices Specialist | Master of Software Engineering Student
+        </p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -71,110 +53,118 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Selected Projects & Experience</h2>
         <div class="work__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
-
+          <!-- Car Rental System -->
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Car Rental System (Master’s Project)</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                Designed and developed a modular Car Rental Management System using layered architecture and design patterns.
+                Implemented role-based access control, booking lifecycle modeling, pricing strategy pattern and automated
+                background scheduling.
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Python</li>
+                <li>SQLite</li>
+                <li>OOP & Design Patterns</li>
+                <li>Layered Architecture</li>
               </ul>
-
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/oshan95/mse800-car-rental-system" target="_blank" class="link__text">
+                  View Repository <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/oshan95/mse800-car-rental-system" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/project-1.png" class="work__image" alt="Car Rental System" />
             </div>
           </div>
 
+          <!-- EAG ServiceNow -->
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>EAG – ServiceNow (Virtusa)</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Integrated external V5 APIs with ServiceNow platform and developed automated business request flows.
+                Reviewed code contributions, resolved QA issues and supported enterprise workflow automation.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>ServiceNow</li>
+                <li>JavaScript</li>
+                <li>Azure</li>
+                <li>Enterprise Integration</li>
               </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <img src="./images/project-2.png" class="work__image" alt="ServiceNow Project" />
             </div>
           </div>
 
+          <!-- Citibank NLP -->
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Citibank – NLP Tool</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Developed microservices and Spring Batch processes for transcript analysis system.
+                Built REST APIs, improved unit test coverage and collaborated with QA to maintain production stability.
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
                 <li>MongoDB</li>
+                <li>Microservices</li>
               </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/project-3.png" class="work__image" alt="NLP Tool" />
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- ***** Clients ***** -->
+          <!-- Veracode -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Veracode – SCA</h3>
+              <p>
+                Built REST APIs and deployed features in Kubernetes-based environment.
+                Participated in client demos, reviewed merge requests and managed production releases.
+              </p>
+              <ul class="work__list">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>AWS</li>
+                <li>Kubernetes</li>
+              </ul>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Veracode" />
+            </div>
+          </div>
 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+          <!-- Conversational AI -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Conversational AI Bot – Kore.ai</h3>
+              <p>
+                Developed dialog flows and Node.js backend features for enterprise conversational bots.
+                Addressed security issues, participated in SCRUM and conducted knowledge transfer sessions.
+              </p>
+              <ul class="work__list">
+                <li>Kore.ai</li>
+                <li>Node.js</li>
+                <li>JavaScript</li>
+                <li>Agile SCRUM</li>
+              </ul>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Conversational AI" />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -185,25 +175,35 @@
       <div class="row">
         <h2>About Me</h2>
         <div class="about__content">
+
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              I am a Software Engineer with over 5 years of enterprise development experience at Virtusa,
+              currently pursuing a Master of Software Engineering in Auckland, New Zealand.
             </p>
-            <!-- Provide a link to your resume -->
+
+            <p>
+              My expertise lies in backend development, microservices architecture, REST API design,
+              and enterprise system integration. I focus on clean architecture principles,
+              maintainable code and scalable system design.
+            </p>
+
+            <p>
+              I am currently seeking backend or software engineering opportunities in New Zealand
+              where I can contribute enterprise-level experience and advanced software engineering practices.
+            </p>
+
             <a href="#" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="Oshan Mendis" />
           </div>
+
         </div>
       </div>
     </section>
+
   </main>
 
   <!-- ***** Contact ***** -->
@@ -213,15 +213,11 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          If you are looking for a backend engineer with strong enterprise experience in microservices,
+          automation and scalable architecture — I would be happy to connect.
         </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+
+        <a href="#" id="email-link" class="btn"></a>
       </div>
     </div>
   </section>
@@ -230,46 +226,34 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
+
       <ul class="footer__social-links">
+
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/oshan95" target="_blank">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
+
         <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          <a href="https://www.linkedin.com/in/oshan-mendis-4b56b5160" target="_blank">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
+
       </ul>
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+        © 2026 Oshan Mendis
       </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
+
     </div>
   </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
+
   <script src="./index.js"></script>
 </body>
 

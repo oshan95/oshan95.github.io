@@ -41,3 +41,14 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+// Email Obfuscation
+const user = "pobudumendis";
+const domain = "gmail.com";
+const email = `${user}@${domain}`;
+
+const link = document.getElementById("email-link");
+if (link) {
+  link.href = `mailto:${email}`;
+  link.textContent = email;
+}

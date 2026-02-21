@@ -150,7 +150,7 @@ For changing the screenshot:
                 <!-- Add a nice photo of yourself -->
                 <img
                 class="about__photo"
-                src="./images/syed-ali-hussnain.jpg"
+                src="./images/oshan-mendis.png"
                 alt=""
                 />
             </div>

@@ -58,10 +58,10 @@ if (link) {
 // ===============================
 
 const texts = [
-  "Microservices Developer",
+  "Passionate Software Engineer",
   "Master of Software Engineering Student",
-  "Java & Spring Boot Developer",
-  "ServiceNow Developer"
+  "Transforming Code into Solutions",
+  "Proficient in Java, Spring Boot & ServiceNow"
 ];
 
 const typewriterElement = document.getElementById("typewriter");

@@ -1,0 +1,4 @@
+# Ask crawlers not to index the resume PDF.
+# This is a request, not a lock. Well-behaved bots follow it.
+User-agent: *
+Disallow: /resume/
